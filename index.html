@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP1073 Assignment 4</title>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/youtube.js" defer></script>
+    <link href="css/normalize.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <section id="intro">
+        <div id="banner">
+            <h1>YouTube Trends!</h1><div>
+            <p>Find the most popular current YouTube videos by search, or by the YouTube trending page.</p>
+            <p id="student-num"></p>
+        </div>
+    </section>
+    <section id="search">
+        <form>
+            <label>Search by title
+                <input type="text" placeholder="Gaming" id="user-search">
+                <span></span>
+            </label>
+            <button type="submit" id="search-button">Search</button>
+        </form>
+        <div id="search-results">
+            <!-- Dynamically add content with script.js/youtube.js -->
+        </div>
+    </section>
+    <section id="trending">
+        <form>
+            <p>Search by top in trending</p>
+            <button type="submit" id="trending-button">Search</button>
+        </form>
+        <div id="trending-results">
+            <div class="trending-card-wrapper">
+                <div class="trending-card">
+                    <h3 class="title"></h3>
+                    <img src="" class="thumnail" alt="">
+                    <p class="channel"></p>
+                    <p class="length"></p>
+                    <p class="views"></p>
+                </div>
+            </div>
+            <div class="trending-card-wrapper">
+                <div class="trending-card">
+                    <h3 class="title"></h3>
+                    <img src="" class="thumnail" alt="">
+                    <p class="channel"></p>
+                    <p class="length"></p>
+                    <p class="views"></p>
+                </div>
+            </div>
+            <div class="trending-card-wrapper">
+                <div class="trending-card">
+                    <h3 class="title"></h3>
+                    <img src="" class="thumnail" alt="">
+                    <p class="channel"></p>
+                    <p class="length"></p>
+                    <p class="views"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

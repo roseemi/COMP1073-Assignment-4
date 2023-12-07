@@ -1,0 +1,60 @@
+html {
+    background-color: rgb(202, 202, 202);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+body {
+    padding: 1em;
+}
+
+button[type="submit"] {
+    width: max-content;
+    padding: 1em 2em;
+    margin: 1em auto;
+}
+
+#banner {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 70%;
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#search,
+#trending {
+    padding: 1em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+form > * {
+    display: block;
+}
+
+#search-results,
+.search-results-wrapper,
+#trending-results,
+.trending-results-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.search-results-wrapper,
+.trending-results-wrapper {
+    background-color: rgb(189, 125, 115);
+    padding: 1em;
+    box-sizing: border-box;
+    flex-basis: 100%;
+}
+
+.search-results-card,
+.trending-results-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-grow: 1;
+    box-sizing: border-box;
+}
